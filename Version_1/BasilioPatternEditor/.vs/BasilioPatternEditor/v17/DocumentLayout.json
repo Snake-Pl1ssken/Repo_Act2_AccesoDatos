@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{F5B0CF22-D911-4CCE-9DA8-82B6ECEE51EB}|BasilioPatternEditor.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F5B0CF22-D911-4CCE-9DA8-82B6ECEE51EB}|BasilioPatternEditor.csproj|d:\\jorge luis garcia orbegoso\\acceso datos\\repo_act2_accesodatos\\version_1\\basiliopatterneditor\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{F5B0CF22-D911-4CCE-9DA8-82B6ECEE51EB}|BasilioPatternEditor.csproj|D:\\Jorge Luis Garcia Orbegoso\\Acceso Datos\\Repo_Act2_AccesoDatos\\Version_1\\BasilioPatternEditor\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{F5B0CF22-D911-4CCE-9DA8-82B6ECEE51EB}|BasilioPatternEditor.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
@@ -32,16 +32,6 @@
           "DockedWidth": 200,
           "SelectedChildIndex": 5,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "XamlReader.cs",
-              "DocumentMoniker": "C:\\Users\\IFP\\AppData\\Local\\Temp\\.vsdbgsrc\\0a84cc53936b314ba955b54f50bf4796d8234943f3fd7b93873381b45d404026\\XamlReader.cs",
-              "ToolTip": "C:\\Users\\IFP\\AppData\\Local\\Temp\\.vsdbgsrc\\0a84cc53936b314ba955b54f50bf4796d8234943f3fd7b93873381b45d404026\\XamlReader.cs",
-              "ViewState": "AgIAAKgBAAAAAAAAAAASwLUBAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T08:22:39.546Z"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 4,
@@ -86,13 +76,24 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "XamlReader.cs",
+              "DocumentMoniker": "C:\\Users\\IFP\\AppData\\Local\\Temp\\.vsdbgsrc\\0a84cc53936b314ba955b54f50bf4796d8234943f3fd7b93873381b45d404026\\XamlReader.cs",
+              "ToolTip": "C:\\Users\\IFP\\AppData\\Local\\Temp\\.vsdbgsrc\\0a84cc53936b314ba955b54f50bf4796d8234943f3fd7b93873381b45d404026\\XamlReader.cs",
+              "ViewState": "AgIAAKgBAAAAAAAAAAASwLUBAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T08:22:39.546Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "D:\\Jorge Luis Garcia Orbegoso\\Acceso Datos\\Repo_Act2_AccesoDatos\\Version_1\\BasilioPatternEditor\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
               "ToolTip": "D:\\Jorge Luis Garcia Orbegoso\\Acceso Datos\\Repo_Act2_AccesoDatos\\Version_1\\BasilioPatternEditor\\MainWindow.xaml.cs",
               "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AQIAADkAAAAAAAAAAAAowFoAAAArAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAkwE8AAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-24T07:37:10.315Z",
               "EditorCaption": ""

@@ -1,4 +1,5 @@
-﻿using System.Text;
+﻿using System.IO;
+using System.Text;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -73,11 +74,26 @@ namespace BasilioPatternEditor
 
         private void Load_Click(object sender, RoutedEventArgs e)
         {
+            int b;
+
+            FileStream fichero = new FileStream("datos.bin", FileMode.Open, FileAccess.Read);
+            b = (int)fichero.ReadByte();
+            fichero.Close();
 
         }
 
         private void Save_Click(object sender, RoutedEventArgs e)
         {
+
+            byte textBoxes;
+
+            FileStream fichero;
+
+            fichero = new FileStream("datos.bin", FileMode.Create, FileAccess.Write);
+
+            fichero.WriteByte(textBoxes);
+
+            fichero.Close();
 
         }
 
