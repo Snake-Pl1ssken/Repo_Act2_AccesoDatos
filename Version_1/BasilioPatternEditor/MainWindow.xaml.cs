@@ -48,5 +48,47 @@ namespace BasilioPatternEditor
 
 
         }
+
+        private void New_Click(object sender, RoutedEventArgs e)
+        {
+            for (int i = 0; i < 8; i++)
+            {
+                for (int j = 0; j < 8; j++)
+                {
+                    TextBox t = new TextBox();
+                    t.Text = "-1";
+
+                    t.SetValue(Canvas.LeftProperty, j * 39.0);
+                    t.SetValue(Canvas.TopProperty, i * 39.0);
+                    t.SetValue(Canvas.WidthProperty, 39.0);
+                    t.SetValue(Canvas.HeightProperty, 39.0);
+
+                    Canvas.Children.Add(t);
+                    textBoxes[i, j] = t;
+
+
+                }
+            }
+        }
+
+        private void Load_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Save_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void SaveAs_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Exit_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

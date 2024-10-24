@@ -7,10 +7,10 @@
         mc:Ignorable="d"
         Title="BasilioPatternEditor" Width="538" Height="394">
     <Canvas x:Name="Canvas">
-        <Button x:Name="New" Content="New" Width="172" Height="46" HorizontalAlignment="Left" Canvas.Left="325" Canvas.Top="15" VerticalAlignment="Center"/>
-        <Button x:Name="Save" Content="Save" Width="172" Height="42" HorizontalAlignment="Left" Canvas.Left="325" Canvas.Top="111" VerticalAlignment="Center"/>
-        <Button x:Name="Load" Content="Load..." Width="172" Height="40" HorizontalAlignment="Left" Canvas.Left="325" Canvas.Top="66" VerticalAlignment="Center"/>
-        <Button x:Name="Exit" Content="Exit" Width="172" Height="40" HorizontalAlignment="Left" Canvas.Left="325" Canvas.Top="210" VerticalAlignment="Center"/>
-        <Button x:Name="SaveAs" Content="Save as..." Width="172" Height="42" HorizontalAlignment="Left" Canvas.Left="325" Canvas.Top="158" VerticalAlignment="Center"/>
+        <Button x:Name="New" Content="New" Width="172" Height="46" HorizontalAlignment="Left" Canvas.Left="325" Canvas.Top="15" VerticalAlignment="Center" Click="New_Click"/>
+        <Button x:Name="Save" Content="Save" Width="172" Height="42" HorizontalAlignment="Left" Canvas.Left="325" Canvas.Top="111" VerticalAlignment="Center" Click="Save_Click"/>
+        <Button x:Name="Load" Content="Load..." Width="172" Height="40" HorizontalAlignment="Left" Canvas.Left="325" Canvas.Top="66" VerticalAlignment="Center" Click="Load_Click"/>
+        <Button x:Name="Exit" Content="Exit" Width="172" Height="40" HorizontalAlignment="Left" Canvas.Left="325" Canvas.Top="210" VerticalAlignment="Center" Click="Exit_Click"/>
+        <Button x:Name="SaveAs" Content="Save as..." Width="172" Height="42" HorizontalAlignment="Left" Canvas.Left="325" Canvas.Top="158" VerticalAlignment="Center" Click="SaveAs_Click"/>
     </Canvas>
 </Window>

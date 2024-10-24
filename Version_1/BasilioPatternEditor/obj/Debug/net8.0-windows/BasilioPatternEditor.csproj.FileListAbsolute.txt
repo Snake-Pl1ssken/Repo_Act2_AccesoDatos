@@ -18,3 +18,24 @@ C:\Users\IFP\source\repos\BasilioPatternEditor\obj\Debug\net8.0-windows\refint\B
 C:\Users\IFP\source\repos\BasilioPatternEditor\obj\Debug\net8.0-windows\BasilioPatternEditor.pdb
 C:\Users\IFP\source\repos\BasilioPatternEditor\obj\Debug\net8.0-windows\BasilioPatternEditor.genruntimeconfig.cache
 C:\Users\IFP\source\repos\BasilioPatternEditor\obj\Debug\net8.0-windows\ref\BasilioPatternEditor.dll
+D:\Jorge Luis Garcia Orbegoso\Acceso Datos\Repo_Act2_AccesoDatos\Version_1\BasilioPatternEditor\obj\Debug\net8.0-windows\MainWindow.g.cs
+D:\Jorge Luis Garcia Orbegoso\Acceso Datos\Repo_Act2_AccesoDatos\Version_1\BasilioPatternEditor\obj\Debug\net8.0-windows\App.g.cs
+D:\Jorge Luis Garcia Orbegoso\Acceso Datos\Repo_Act2_AccesoDatos\Version_1\BasilioPatternEditor\obj\Debug\net8.0-windows\BasilioPatternEditor_MarkupCompile.cache
+D:\Jorge Luis Garcia Orbegoso\Acceso Datos\Repo_Act2_AccesoDatos\Version_1\BasilioPatternEditor\obj\Debug\net8.0-windows\BasilioPatternEditor_MarkupCompile.lref
+D:\Jorge Luis Garcia Orbegoso\Acceso Datos\Repo_Act2_AccesoDatos\Version_1\BasilioPatternEditor\obj\Debug\net8.0-windows\BasilioPatternEditor.dll
+D:\Jorge Luis Garcia Orbegoso\Acceso Datos\Repo_Act2_AccesoDatos\Version_1\BasilioPatternEditor\obj\Debug\net8.0-windows\refint\BasilioPatternEditor.dll
+D:\Jorge Luis Garcia Orbegoso\Acceso Datos\Repo_Act2_AccesoDatos\Version_1\BasilioPatternEditor\obj\Debug\net8.0-windows\BasilioPatternEditor.pdb
+D:\Jorge Luis Garcia Orbegoso\Acceso Datos\Repo_Act2_AccesoDatos\Version_1\BasilioPatternEditor\bin\Debug\net8.0-windows\BasilioPatternEditor.exe
+D:\Jorge Luis Garcia Orbegoso\Acceso Datos\Repo_Act2_AccesoDatos\Version_1\BasilioPatternEditor\bin\Debug\net8.0-windows\BasilioPatternEditor.deps.json
+D:\Jorge Luis Garcia Orbegoso\Acceso Datos\Repo_Act2_AccesoDatos\Version_1\BasilioPatternEditor\bin\Debug\net8.0-windows\BasilioPatternEditor.runtimeconfig.json
+D:\Jorge Luis Garcia Orbegoso\Acceso Datos\Repo_Act2_AccesoDatos\Version_1\BasilioPatternEditor\bin\Debug\net8.0-windows\BasilioPatternEditor.dll
+D:\Jorge Luis Garcia Orbegoso\Acceso Datos\Repo_Act2_AccesoDatos\Version_1\BasilioPatternEditor\bin\Debug\net8.0-windows\BasilioPatternEditor.pdb
+D:\Jorge Luis Garcia Orbegoso\Acceso Datos\Repo_Act2_AccesoDatos\Version_1\BasilioPatternEditor\obj\Debug\net8.0-windows\MainWindow.baml
+D:\Jorge Luis Garcia Orbegoso\Acceso Datos\Repo_Act2_AccesoDatos\Version_1\BasilioPatternEditor\obj\Debug\net8.0-windows\BasilioPatternEditor.g.resources
+D:\Jorge Luis Garcia Orbegoso\Acceso Datos\Repo_Act2_AccesoDatos\Version_1\BasilioPatternEditor\obj\Debug\net8.0-windows\BasilioPatternEditor.GeneratedMSBuildEditorConfig.editorconfig
+D:\Jorge Luis Garcia Orbegoso\Acceso Datos\Repo_Act2_AccesoDatos\Version_1\BasilioPatternEditor\obj\Debug\net8.0-windows\BasilioPatternEditor.AssemblyInfoInputs.cache
+D:\Jorge Luis Garcia Orbegoso\Acceso Datos\Repo_Act2_AccesoDatos\Version_1\BasilioPatternEditor\obj\Debug\net8.0-windows\BasilioPatternEditor.AssemblyInfo.cs
+D:\Jorge Luis Garcia Orbegoso\Acceso Datos\Repo_Act2_AccesoDatos\Version_1\BasilioPatternEditor\obj\Debug\net8.0-windows\BasilioPatternEditor.csproj.CoreCompileInputs.cache
+D:\Jorge Luis Garcia Orbegoso\Acceso Datos\Repo_Act2_AccesoDatos\Version_1\BasilioPatternEditor\obj\Debug\net8.0-windows\BasilioPatternEditor.sourcelink.json
+D:\Jorge Luis Garcia Orbegoso\Acceso Datos\Repo_Act2_AccesoDatos\Version_1\BasilioPatternEditor\obj\Debug\net8.0-windows\BasilioPatternEditor.genruntimeconfig.cache
+D:\Jorge Luis Garcia Orbegoso\Acceso Datos\Repo_Act2_AccesoDatos\Version_1\BasilioPatternEditor\obj\Debug\net8.0-windows\ref\BasilioPatternEditor.dll
