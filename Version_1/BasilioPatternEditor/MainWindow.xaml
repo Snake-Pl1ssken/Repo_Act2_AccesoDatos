@@ -1,0 +1,16 @@
+﻿<Window x:Class="BasilioPatternEditor.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BasilioPatternEditor"
+        mc:Ignorable="d"
+        Title="BasilioPatternEditor" Width="538" Height="394">
+    <Canvas x:Name="Canvas">
+        <Button x:Name="New" Content="New" Width="172" Height="46" HorizontalAlignment="Left" Canvas.Left="325" Canvas.Top="15" VerticalAlignment="Center"/>
+        <Button x:Name="Save" Content="Save" Width="172" Height="42" HorizontalAlignment="Left" Canvas.Left="325" Canvas.Top="111" VerticalAlignment="Center"/>
+        <Button x:Name="Load" Content="Load..." Width="172" Height="40" HorizontalAlignment="Left" Canvas.Left="325" Canvas.Top="66" VerticalAlignment="Center"/>
+        <Button x:Name="Exit" Content="Exit" Width="172" Height="40" HorizontalAlignment="Left" Canvas.Left="325" Canvas.Top="210" VerticalAlignment="Center"/>
+        <Button x:Name="SaveAs" Content="Save as..." Width="172" Height="42" HorizontalAlignment="Left" Canvas.Left="325" Canvas.Top="158" VerticalAlignment="Center"/>
+    </Canvas>
+</Window>
