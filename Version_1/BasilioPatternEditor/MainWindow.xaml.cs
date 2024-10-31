@@ -74,27 +74,70 @@ namespace BasilioPatternEditor
 
         private void Load_Click(object sender, RoutedEventArgs e)
         {
-            int b;
+            FileStream fichero = new FileStream("datos.bin", FileMode.Open, FileAccess.Read); 
+            for (int i = 0; i < 8; i++)
+            {
+                for (int j = 0; j < 8; j++)
+                {
+                    // 1 .- reservar un array de bytes del tamaño de un int -DONE
 
-            FileStream fichero = new FileStream("datos.bin", FileMode.Open, FileAccess.Read);
-            b = (int)fichero.ReadByte();
+                    // 2.- leer del fichero y dejar lo leido en el array de bytes
+
+                    // 3.- convertir el array de bytes en un entero
+
+                    // 4.- convertir el entero en un texto
+
+                    // 5 .- guardar el texto en el TexBox correspondiente
+
+                    ///////////////1/////////////////
+                    int tamanyo = sizeof(int);
+                    byte[] bytes = new byte[tamanyo];
+                    ///////////////1/////////////////
+
+
+                    ///////////////2///////////////
+                    fichero.Read(bytes, 0, tamanyo);
+                    ///////////////2///////////////
+
+
+                    ///////////////3///////////////
+                    int ArrayAInt;
+                    ArrayAInt = BitConverter.ToInt32(bytes);
+                    ///////////////3///////////////
+
+
+                    ///////////////4///////////////
+                    string TextoAEntero;
+                    TextoAEntero = ArrayAInt.ToString();
+                    ///////////////4///////////////
+
+
+                    ///////////////5///////////////
+                    //int numguard;
+                    textBoxes[i, j].Text = TextoAEntero;
+                    ///////////////5///////////////
+                }
+            }
             fichero.Close();
 
         }
 
         private void Save_Click(object sender, RoutedEventArgs e)
         {
+            FileStream fichero = new FileStream("datos.bin", FileMode.Create, FileAccess.Write);
+            for (int i = 0; i < 8; i++)
+            {
+                for (int j = 0; j < 8; j++)
+                { 
+                    int numguard;
+                    numguard = Int32.Parse(textBoxes[i,j].Text);
+                    byte[] textBoxeGuardado = BitConverter.GetBytes(numguard); 
 
-            byte textBoxes;
-
-            FileStream fichero;
-
-            fichero = new FileStream("datos.bin", FileMode.Create, FileAccess.Write);
-
-            fichero.WriteByte(textBoxes);
-
+                    fichero.Write(textBoxeGuardado, 0 , textBoxeGuardado.Length);
+                    //Se puede un for multiple? NO Y SI SE HACE, EL FOR
+                }
+            }
             fichero.Close();
-
         }
 
         private void SaveAs_Click(object sender, RoutedEventArgs e)

@@ -57,6 +57,7 @@ namespace BasilioMixer
                 s.Pitch = pitch;
                 s.Play();
                 soundListPlaying.Add(s);
+                soundListFree.Remove(s);
             }
         }
 
