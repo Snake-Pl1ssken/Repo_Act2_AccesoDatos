@@ -3,6 +3,7 @@ using SFML.Graphics;
 using SFML.System;
 using SFML.Window;
 using System;
+using System.Diagnostics;
 
 namespace BasilioMixer
 {
@@ -42,15 +43,40 @@ namespace BasilioMixer
             Random random = Program.GetRandom();
             Configuration config = Program.GetConfig();
 
-            patternsList = new List<int[,]>();
+            string ruta = Directory.GetCurrentDirectory() + "\\Assets" + "\\Patterns";
 
-            for (int s = 0; s < 3; s++)
+            string[] ficheros = Directory.GetFiles(ruta);
+
+            Console.WriteLine(ruta + "\n");
+            int RandPattern;
+            Random rnd = new();
+            RandPattern = rnd.Next(0,ficheros.Length);
+            FileStream file = new FileStream(ficheros[RandPattern], FileMode.Open, FileAccess.Read);
+            pattern = new int[8, 8];
+            for (int i = 0; i < 8; i++)
             {
-                int[,] p = CreateRandomPattern();
-                patternsList.Add(p);
-            }
+                for (int j = 0; j < 8; j++)
+                {
+                    ///////////////1/////////////////
+                    int tamanyo = sizeof(int);
+                    byte[] bytes = new byte[tamanyo];
+                    ///////////////1/////////////////
 
-            pattern = patternsList[random.Next() % patternsList.Count];
+                    ///////////////2///////////////
+                    file.Read(bytes, 0, tamanyo);
+                    ///////////////2///////////////
+
+                    ///////////////3///////////////
+                    int ArrayAInt;
+                    ArrayAInt = BitConverter.ToInt32(bytes);
+                    ///////////////3///////////////
+
+                    ///////////////4///////////////
+                    pattern[i, j] = ArrayAInt;
+                    ///////////////4///////////////
+                }
+            }
+            file.Close();
 
             patternTotalPieces = CountPatternPieces(pattern);
 
