@@ -34,6 +34,12 @@ namespace BasilioMixer
             ///////////////////////////////////////////////////////////////////
             configuration = new Configuration(); //AQUI HAY QUE CARGAR EL JSON
             ///////////////////////////////////////////////////////////////////
+            ///
+            //2
+            // Si existe el fichero "configuration.json"
+            // abres el fichero y metes su contenido en un string
+            // llamas al jsonserializer para que deserialize el string en un objeto configuration
+            // que asignas a la variable configuration
 
             // Init window
 
@@ -87,9 +93,16 @@ namespace BasilioMixer
                 window.Display();
 
             }
-
+            //1
             //AQUI HAY QUE GUARDAR EL FICHERO JSON
+            // usar el json serialized para convertir el objeto configuration en un string
+            // posiblemente la primera vez te genere un string vacío, investiga jsonserializeroptions
+            // el string lo guardas en un fichero de texto "configuration.json"
 
+
+            //estructura json serialize options
+            string jsonString = JsonSerializer.Serialize(configuration);
+            Console.WriteLine(jsonString);
 
         }
 
