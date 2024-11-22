@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "bQacTJBIcpkwnP8RKKQmGuQ+AV9V1gjI8oclnOQbK6iBjuLxaIlLUnXk7fYQ5bB823HQZoGdx/hz+hiezMRvmw==",
+  "success": true,
+  "projectFilePath": "D:\\Jorge Luis Garcia Orbegoso\\Acceso Datos\\Repo_Act2_AccesoDatos\\Version_1\\ProyectoBase\\BasilioMixer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Alumno\\.nuget\\packages\\csfml\\2.6.1\\csfml.2.6.1.nupkg.sha512",
+    "C:\\Users\\Alumno\\.nuget\\packages\\sfml.audio\\2.6.0\\sfml.audio.2.6.0.nupkg.sha512",
+    "C:\\Users\\Alumno\\.nuget\\packages\\sfml.graphics\\2.6.0\\sfml.graphics.2.6.0.nupkg.sha512",
+    "C:\\Users\\Alumno\\.nuget\\packages\\sfml.net\\2.6.0\\sfml.net.2.6.0.nupkg.sha512",
+    "C:\\Users\\Alumno\\.nuget\\packages\\sfml.system\\2.6.0\\sfml.system.2.6.0.nupkg.sha512",
+    "C:\\Users\\Alumno\\.nuget\\packages\\sfml.window\\2.6.0\\sfml.window.2.6.0.nupkg.sha512"
+  ],
+  "logs": []
+}
